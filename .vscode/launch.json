@@ -2,14 +2,42 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Sorting/BubbleSort.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Sorting",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "logging": {
+        "moduleLoad": false,
+        "programOutput": true,
+        "trace": true,
+        "engineLogging": true,
+        "exceptions": true
+      }
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/AYUSHI/Documents/DSA 2.0/Sorting",
-      "program": "c:/Users/AYUSHI/Documents/DSA 2.0/Sorting/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
