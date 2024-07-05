@@ -36,8 +36,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/AYUSHI/Documents/DSA 2.0/Sorting/Sorting",
+      "program": "c:/Users/AYUSHI/Documents/DSA 2.0/Sorting/Sorting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
