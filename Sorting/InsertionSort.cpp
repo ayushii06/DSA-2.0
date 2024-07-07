@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//INSERTION_SORT ----> In this type of sorting , we keep the elements at their correct order
 
 void insertion_sort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
