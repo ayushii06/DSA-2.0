@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#selection_sort
+
 void selection_sort(int arr[],int n){
     for(int i=0;i<n;i++){
         int min_index = i;
