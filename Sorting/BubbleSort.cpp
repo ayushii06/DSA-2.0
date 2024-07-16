@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#bubble_sort
+
 void bubble_sort(int arr[], int n)
 {
     for (int i = n - 1; i > 0; i--)
