@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//MERGE_SORT
+
 void merge(int arr[], int left, int mid, int right)
 {
     int n1 = mid - left + 1;
