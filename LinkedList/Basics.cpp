@@ -6,6 +6,8 @@ struct Node {
     Node* next;
 };
 
+//Liked list
+
 class LinkedList {
 private:
     Node* head;
